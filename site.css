@@ -1,0 +1,18 @@
+ai-coder-site/
+├── index.html         (redirects or homepage linking to services)
+├── services.html      (code shown above)
+├── portfolio.html
+├── about.html
+├── contact.html
+├── blog/
+│   ├── index.html     (blog listing)
+│   └── post1.html     (example blog post content)
+├── css/
+│   └── styles.css     (shared stylesheet)
+├── js/
+│   └── script.js      (for menu toggle or other minor scripts)
+└── images/
+    ├── hero-bg.jpg
+    ├── project1.jpg   (portfolio image placeholders)
+    ├── ai-post.jpg    (blog header image)
+    └── ...            (icons, logos, etc.)
