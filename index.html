@@ -3,240 +3,313 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Coder - AI-Driven Delivery. Human-Centered Innovation.</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <style>
-        /* Basic Reset */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            font-family: 'Open Sans', Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #fff;
-        }
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-        ul {
-            list-style: none;
-        }
-
-        /* Header & Navigation */
-        header {
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 1rem;
-        }
-        .logo a {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #0066cc;
-        }
-        nav ul {
-            display: flex;
-        }
-        nav li {
-            margin-left: 2rem;
-        }
-        nav a {
-            font-size: 1rem;
-            font-weight: 600;
-            color: #333;
-            transition: color 0.3s;
-        }
-        nav a:hover {
-            color: #0066cc;
-        }
-
-        /* Hero Section */
-        .hero {
-            background: linear-gradient(135deg, #1f3a93, #1abc9c);
-            color: #fff;
-            text-align: center;
-            padding: 6rem 2rem;
-        }
-        .hero h1 {
-            font-family: 'Roboto', sans-serif;
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-        .hero p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .btn {
-            display: inline-block;
-            background-color: #ff6600;
-            color: #fff;
-            padding: 0.8rem 1.5rem;
-            font-size: 1rem;
-            font-weight: 600;
-            border-radius: 4px;
-            transition: background-color 0.3s;
-        }
-        .btn:hover {
-            background-color: #e65c00;
-        }
-
-        /* Mission Section */
-        .mission {
-            padding: 4rem 2rem;
-            text-align: center;
-        }
-        .mission h2 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-            color: #0066cc;
-        }
-        .mission p {
-            font-size: 1.1rem;
-            max-width: 700px;
-            margin: 0.5rem auto;
-            color: #555;
-        }
-
-        /* Services Section */
-        .services {
-            padding: 4rem 2rem;
-            background-color: #f9f9f9;
-            text-align: center;
-        }
-        .services h2 {
-            font-size: 2rem;
-            margin-bottom: 2rem;
-            color: #0066cc;
-        }
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 2rem;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-        .service-item {
-            background-color: #fff;
-            border-radius: 8px;
-            padding: 2rem;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-        .service-item h3 {
-            font-size: 1.25rem;
-            margin-bottom: 1rem;
-            color: #333;
-        }
-        .service-item p {
-            color: #666;
-            font-size: 1rem;
-        }
-
-        /* Footer */
-        footer {
-            background-color: #333;
-            color: #ccc;
-            padding: 2rem 1rem;
-            text-align: center;
-        }
-        footer p {
-            margin: 0.5rem 0;
-            font-size: 0.9rem;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .nav-container {
-                flex-direction: column;
-            }
-            nav ul {
-                flex-direction: column;
-                align-items: center;
-            }
-            nav li {
-                margin: 1rem 0;
-            }
-            .hero h1 {
-                font-size: 2rem;
-            }
-            .hero p {
-                font-size: 1rem;
-            }
-        }
-    </style>
+    <meta name="description" content="AI Coder - Leading provider of AI solutions, automation frameworks, and program management services. Transforming businesses with intelligent technology.">
+    <meta name="keywords" content="AI solutions, machine learning, automation, program management, IoT, software development, digital transformation">
+    <title>AI Coder - AI Solutions & Digital Transformation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>" type="image/svg+xml">
 </head>
 <body>
-
-    <header>
-        <div class="nav-container">
+    <header role="banner">
+        <nav class="nav-container">
             <div class="logo">
-                <a href="index.html">AI Coder</a>
+                <a href="#home">AI Coder</a>
             </div>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="blog/index.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+            <ul class="nav-menu">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
 
-    <section class="hero">
-        <h1>AI-Driven Delivery. Human-Centered Innovation.</h1>
-        <p>From program management to automation frameworks and AI solutions, AI Coder drives efficiency at scale.</p>
-        <a href="services.html" class="btn">Explore Our Services</a>
-    </section>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Transforming Business Through<br><span class="highlight">Intelligent Technology</span></h1>
+                <p>We deliver cutting-edge AI solutions, automation frameworks, and program management services that drive digital transformation and sustainable growth.</p>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects Delivered</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Support</div>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="#portfolio" class="btn btn-secondary">View Portfolio</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="tech-animation">
+                    <div class="circuit-pattern"></div>
+                    <div class="floating-tech">
+                        <div class="tech-icon ai">🤖</div>
+                        <div class="tech-icon cloud">☁️</div>
+                        <div class="tech-icon data">📊</div>
+                        <div class="tech-icon network">🌐</div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section class="mission">
-        <h2>Our Mission</h2>
-        <p>At AI Coder, our mission is to empower businesses through innovative technology. We bridge the gap between cutting-edge AI and real-world needs, ensuring human-centered solutions that enhance efficiency and growth. Driven by expertise in program management and automation, we partner with our clients to navigate complex challenges and deliver impactful results.</p>
-    </section>
+        <section id="services" class="services">
+            <div class="container">
+                <h2>What We Do</h2>
+                <p class="section-subtitle">Comprehensive solutions for modern challenges</p>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon">🤖</div>
+                        <h3>AI & Machine Learning</h3>
+                        <p>Advanced AI solutions including machine learning models, predictive analytics, and intelligent automation.</p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon">🧪</div>
+                        <h3>Quality & Test Automation</h3>
+                        <p>Comprehensive testing solutions and automated quality assurance frameworks that ensure software reliability and performance.</p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon">🌐</div>
+                        <h3>IoT Solutions</h3>
+                        <p>End-to-end IoT implementations with sensor networks, data processing, and real-time analytics.</p>
+                    </article>
+                    <article class="service-card">
+                        <div class="service-icon">💻</div>
+                        <h3>Software Development</h3>
+                        <p>Custom software development using modern technologies and agile methodologies.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-    <section class="services">
-        <h2>Our Services</h2>
-        <div class="services-grid">
-            <div class="service-item">
-                <h3>Program Management</h3>
-                <p>Leading cross-functional teams to deliver technology projects on time and on budget. Our expert project managers ensure seamless execution from concept to deployment.</p>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>About AI Coder</h2>
+                        <p>AI Coder is a leading provider of AI solutions, automation frameworks, and program management services. We specialize in transforming businesses through innovative technology that drives efficiency and growth.</p>
+                        <p>With expertise in cutting-edge technologies, we deliver comprehensive solutions that help organizations navigate the complexities of digital transformation and stay ahead in the competitive landscape.</p>
+                        <a href="#contact" class="btn btn-primary">Learn More</a>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Client Satisfaction</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="service-item">
-                <h3>Automation Frameworks</h3>
-                <p>Developing robust automation frameworks to streamline testing and deployment processes. We help you achieve faster, more reliable software delivery.</p>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2>Featured Work</h2>
+                <p class="section-subtitle">Showcasing our expertise in action</p>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="AI Platform Dashboard" loading="lazy">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Enterprise AI Platform</h3>
+                            <p>Custom AI solution for predictive analytics and automated decision-making, processing millions of data points daily.</p>
+                            <div class="portfolio-tech">
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>React</span>
+                                <span>AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="DevOps Automation Pipeline" loading="lazy">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>DevOps Automation Framework</h3>
+                            <p>Comprehensive CI/CD pipeline that reduced deployment time by 80% and improved system reliability across enterprise applications.</p>
+                            <div class="portfolio-tech">
+                                <span>Kubernetes</span>
+                                <span>Docker</span>
+                                <span>Jenkins</span>
+                                <span>Terraform</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="IoT Network Infrastructure" loading="lazy">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Smart City IoT Network</h3>
+                            <p>Connected infrastructure for real-time data collection and analysis across 500+ IoT devices in urban environments.</p>
+                            <div class="portfolio-tech">
+                                <span>IoT</span>
+                                <span>MQTT</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Healthcare AI Diagnostic System" loading="lazy">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Healthcare AI Diagnostic Tool</h3>
+                            <p>Machine learning model for medical image analysis, achieving 95% accuracy in early disease detection and diagnosis.</p>
+                            <div class="portfolio-tech">
+                                <span>Python</span>
+                                <span>PyTorch</span>
+                                <span>OpenCV</span>
+                                <span>FastAPI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Financial Trading Platform" loading="lazy">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Financial Process Automation</h3>
+                            <p>Automated trading and risk management system processing $2B+ in daily transactions with real-time analytics.</p>
+                            <div class="portfolio-tech">
+                                <span>Java</span>
+                                <span>Spring Boot</span>
+                                <span>Kafka</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="5G Network Infrastructure" loading="lazy">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>5G Network Infrastructure</h3>
+                            <p>Led deployment of nationwide 5G infrastructure for major telecom provider, managing cross-functional teams of 50+ engineers.</p>
+                            <div class="portfolio-tech">
+                                <span>Program Management</span>
+                                <span>Agile</span>
+                                <span>Jira</span>
+                                <span>MS Project</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="service-item">
-                <h3>AI Solutions</h3>
-                <p>Designing AI-powered applications that solve complex business challenges. From data modeling to predictive analytics, we turn insights into action.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p class="section-subtitle">Ready to transform your business with AI?</p>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Address</h4>
+                                <address>123 Technology Drive<br>Silicon Valley, CA 94000</address>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+11234567890">(123) 456-7890</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:info@aicoder.com">info@aicoder.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
             </div>
-            <div class="service-item">
-                <h3>Telecom Integration</h3>
-                <p>Integrating advanced telecom systems and IoT devices to ensure seamless communication networks. We enable connectivity that scales with your organization.</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
-        <p>Contact Us: 123 Technology Drive, Silicon Valley, CA | Phone: (123) 456-7890 | Email: <a href="mailto:info@aicoder.com">info@aicoder.com</a></p>
-        <p>&copy; 2025 AI Coder. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AI Coder</h3>
+                    <p>Leading provider of AI solutions, automation frameworks, and program management services.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="GitHub">💻</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI Coder. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
 
+    <script>
+        // Simple mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+                hamburger.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>
